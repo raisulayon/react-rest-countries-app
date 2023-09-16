@@ -1,0 +1,12 @@
+.box{
+    background-color: lightblue;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
